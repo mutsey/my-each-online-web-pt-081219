@@ -30,7 +30,7 @@ describe "my_each" do
     words = ['hi', 'hello', 'bye', 'goodbye']
     counter = 0
 
-    my_each(words) do |item|
+    my_each(words) do |word|
       expect(item).to equal(words[counter])
       counter+=1
     end
